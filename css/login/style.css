@@ -72,8 +72,15 @@
     width: 10%;
     height: 100%;
     display:flex;
+    position:absolute;
     align-items:center;
     justify-content:center;
+}
+.btn{
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
 }
 .btnDireita{
     width: 10%;
@@ -86,8 +93,16 @@
     justify-content:center;
 }
 .btnVConteudo{
-    width: 100%;
-    height: 15%;
+    width: 15px;
+    height: 15px;
     background-color: white;
     border-radius: 50%;
+}
+.areaImg{
+    width: 100%;
+    height: 100%;
+}
+.areaImg img{
+    width: 100%;
+    height: 100%;
 }
