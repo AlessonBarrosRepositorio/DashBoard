@@ -21,6 +21,9 @@
     height: 90%;
     background-color: white;
     margin: 0 0.5% 0  0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .boxLoginArea{
     width: 28%;
@@ -38,4 +41,53 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 5%;
+}
+.loginParamentros input{
+    border:1px black solid;
+    margin-top: 5%;
+}
+.conteudo{
+    background-color: gray;
+    width: 95%;
+    height: 95%;
+    position: relative;
+}
+.btnRCentroImgmeio{
+    position: absolute;
+    bottom: 10px;
+    left: 48%;
+}
+.btnRCentroImgesquerda{
+    position: absolute;
+    bottom: 10px;
+    left: 52%;
+}
+.btnRCentroImgdireita{
+    position: absolute;
+    bottom: 10px;
+    left: 44%;
+}
+.btnEsquerda{
+    width: 10%;
+    height: 100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.btnDireita{
+    width: 10%;
+    height: 100%;
+    position:absolute;
+    right: 0;
+    top:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.btnVConteudo{
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    border-radius: 50%;
 }
