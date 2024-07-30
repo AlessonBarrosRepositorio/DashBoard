@@ -52,6 +52,7 @@
     width: 95%;
     height: 95%;
     position: relative;
+    border: 1px solid black;
 }
 .btnRCentroImgmeio{
     position: absolute;
@@ -91,6 +92,9 @@
     display:flex;
     align-items:center;
     justify-content:center;
+}
+.btn,.btnDireita,.btnEsquerda:hover{
+    cursor: pointer;
 }
 .btnVConteudo{
     width: 15px;
